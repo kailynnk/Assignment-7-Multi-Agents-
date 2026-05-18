@@ -83,7 +83,7 @@ BEDROCK_MODEL_ID = "deepseek.v3.2"
 You can override those values in a local `.env` file:
 
 ```env
-AWS_PROFILE=GSB570-BedrockOnly-KK
+AWS_PROFILE=
 AWS_REGION=us-west-2
 BEDROCK_MODEL_ID=deepseek.v3.2
 ```

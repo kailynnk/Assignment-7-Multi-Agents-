@@ -51,7 +51,7 @@ python3 setup_db.py
 If your AWS SSO session is expired, log in:
 
 ```bash
-aws sso login --profile GSB570-BedrockOnly-KK
+aws sso login --profile default
 ```
 
 Start the app:
@@ -75,7 +75,7 @@ The app uses AWS Bedrock through `boto3`. It does not use an OpenAI API key.
 Default values:
 
 ```python
-AWS_PROFILE = "GSB570-BedrockOnly-KK"
+AWS_PROFILE = ""
 AWS_REGION = "us-west-2"
 BEDROCK_MODEL_ID = "deepseek.v3.2"
 ```
